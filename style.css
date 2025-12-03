@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  text-align: center;
+  padding: 20px;
+}
+
+#quizBox, #categoryBox {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px #aaa;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background: #6bc5ff;
+  color: white;
+}
+
+button:hover {
+  background: #0492f5;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #444;
+}

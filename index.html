@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>🎓 Kids Knowledge Quiz 🎮</h2>
+
+<div id="categoryBox">
+    <h3>Select Category</h3>
+    <button onclick="startCategory('maths')">Maths (500 Q)</button>
+    <button onclick="startCategory('gk')">General Knowledge (500 Q)</button>
+    <button onclick="startCategory('english')">English (500 Q)</button>
+    <button onclick="startCategory('hindi')">Hindi Grammar (500 Q)</button>
+    <button onclick="startCategory('science')">Science (500 Q)</button>
+    <button onclick="startCategory('computer')">Computer (500 Q)</button>
+    <button onclick="startCategory('reasoning')">Reasoning (500 Q)</button>
+</div>
+
+<div id="quizBox" style="display:none;">
+    <h3 id="question">Question</h3>
+    <button onclick="checkAnswer(0)" id="btn0"></button>
+    <button onclick="checkAnswer(1)" id="btn1"></button>
+    <button onclick="checkAnswer(2)" id="btn2"></button>
+    <button onclick="checkAnswer(3)" id="btn3"></button>
+    <p id="score">Score: 0</p>
+</div>
+
+<p class="footer">Created with ❤️ by <b>Bhaveesh Kumar</b></p>
+
+<script src="questions.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
